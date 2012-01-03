@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.2.6)  3 JAN 2012 15:13
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.2.6)  3 JAN 2012 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -553,8 +553,8 @@ landscape: --
 twocolumn: --
 twoside: --
 asymmetric: --
-h-parts: 53.17635pt, 0.822\paperwidth , 53.17635pt
-v-parts: 60.16522pt, 0.822\paperheight , 90.24786pt
+h-parts: 48.39891pt, 0.838\paperwidth , 48.39891pt
+v-parts: 54.75989pt, 0.838\paperheight , 82.13988pt
 hmarginratio: 1:1
 vmarginratio: 2:3
 lines: --
@@ -568,11 +568,11 @@ driver: pdftex
 -------------------- Page layout dimensions and switches
 \paperwidth  597.50787pt
 \paperheight 845.04684pt
-\textwidth  491.15518pt
-\textheight 694.63376pt
-\oddsidemargin  -19.09364pt
-\evensidemargin -19.09364pt
-\topmargin  -49.10477pt
+\textwidth  500.71005pt
+\textheight 708.14708pt
+\oddsidemargin  -23.87108pt
+\evensidemargin -23.87108pt
+\topmargin  -54.5101pt
 \headheight 12.0pt
 \headsep    25.0pt
 \footskip   30.0pt
@@ -658,99 +658,99 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 58.
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 65.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 106.
 (/usr/share/texmf-texlive/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 65.
+(Font)              <9> on input line 106.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 65.
+(Font)              <6> on input line 106.
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+lmss on input line 94.
 
-LaTeX Font Info:    No file OMSlmss.fd. on input line 94.
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 135
+.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 135.
 
 LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textperiodcentered' on input line 94.
+(Font)              for symbol `textperiodcentered' on input line 135.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./picture.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--125
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--142
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--142
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--178
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 182--185
 
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 144.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 187.
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--147
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--158
+Underfull \hbox (badness 10000) in paragraph at lines 187--190
 
  []
 
-[2] (./cv.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--201
+
+ []
+
+[3] (./cv.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 5852 strings out of 493911
- 81370 string characters out of 1155273
- 168440 words of memory out of 3000000
+ 5853 strings out of 493911
+ 81376 string characters out of 1155273
+ 170440 words of memory out of 3000000
  8964 multiletter control sequences out of 15000+50000
  61827 words of font info for 50 fonts, out of 3000000 for 9000
  706 hyphenation exceptions out of 8191
@@ -765,9 +765,9 @@ s/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb>
 /public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></u
 sr/share/texmf-texlive/fonts/type1/public/marvosym/marvosym.pfb></usr/share/tex
 mf-texlive/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on cv.pdf (2 pages, 284497 bytes).
+Output written on cv.pdf (3 pages, 288877 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
+ 111 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
