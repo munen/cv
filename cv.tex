@@ -1,0 +1,203 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper]{moderncv}
+
+% moderncv themes
+% \moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage{url}                   % Set links
+%\usepackage{footmisc} % enabling footnotes.
+\usepackage{endnotes}
+\let\footnote=\endnote
+
+% adjust the page margins
+\usepackage[scale=0.822]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Alain M.}
+\familyname{Lafon}
+\address{Schärenmoosstr. 9}{CH-8052 Zürich}    % optional, remove the line if not wanted
+\mobile{+41 76 40 50 567}                    % optional, remove the line if not wanted
+% \phone{phone (optional)}                      % optional, remove the line if not wanted
+% \fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{alain.lafon@dispatched.ch}                      % optional, remove the line if not wanted
+\homepage{blog.dispatched.ch}
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{"Knowing is not enough, we must apply.\\Willing is not enough, we must
+%do."\\(Goethe)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Experience}
+\cventry{2011--present}{Software Engineer}{Panter llc}{Zürich}{}
+{Cutting edge web development.\newline{}%
+\begin{itemize}%
+  \item Built an internal controlling application in Rails 3.0
+  \item Worked on a team creating a new social platform for music enthusiasts in Rails 3.1\\
+        \url{http://bandplanet.com}
+\end{itemize}}
+
+\cventry{2008--2011}{Software Engineer}{Document Solutions
+AG}{Zürich}{}{Breaking through the analog-digital barrier.\newline{}
+\begin{itemize}%
+    \item Designed and built OCR for recognizing metadata of half a million
+      invoices per year.
+    \item Helped design and build custom invoice workflows for five big
+      corporations and two cantons.
+    \item Designed and built the new product
+      "Gerichtsurkunden"%\footnote{\url{http://goo.gl/PFrtH}}
+      for Swiss Post. It processes every document sent by courts in Switzerland.
+      Also did technical lead.
+    \item Designed and built web application for statistical data analysis of
+      100'000 invoices per year.
+    \item Created a data transfer client for Allianz to transfer eight
+    kilometers of scanned documents.
+\item Technical project lead
+  \begin{itemize}%
+    \item Designed and implemented regression and system test
+      automation. Also trained staff to use them.
+    \item Optimized project management structures.
+      \begin{itemize}
+        \item Evaluated and customized project management software (Trac).
+        \item Organized and held internal training seminars (TDD, SOA, VIM).
+      \end{itemize}
+    \item Responsible for Kofax Suite (Capture, Transformation Module).
+    \item Responsible for Opentext DokuStar Professional.
+  \end{itemize}
+\end{itemize}}
+
+\section{Teaching experience}
+\cventry{2011--present}{Lecturer}{Hochschule für Technik}{Zürich}{}{{}%
+\begin{itemize}
+\item Lecture 'Introduction to programming in C' for semester 1
+\item Lecture 'Introduction to programming in C' for semester 7
+\end{itemize}}
+
+\cventry{2007--2008}{Campus Ambassador}{Sun Microsystems GmbH}{Stuttgart}{}{Bringing Sun Open Source technologies (Java, Opensolaris, Netbeans, OpenSPARC) to universities.\newline{}%
+\begin{itemize}%
+\item Prepared and performed tech demos at Stuttgarts' universities.
+  \begin{itemize}%
+  \item Java SE6, Java EE5, Java FX
+  \item Solaris 10, Opensolaris, in particular ZFS and Zones
+  \end{itemize}
+\item Supported Sun events (i.e. Sun tech days).
+\item Marketed Sun OSS tech to decision makers at universities.
+\end{itemize}}
+
+
+\pagebreak
+\section{Computer skills}
+\cvcomputer{Unix}{Daily use of Linux, OS X, (Solaris)}{Database}{MySQL, MSSQL, Sqlite, (NoSQL)}
+\cvcomputer{Writing}{German, US, GB layouts with 450 characters per minute}{VIM}{Unpaid evangelist}
+
+\section{Interests}
+\cvcomputer{Open Source}{Free Software Foundation member}{Sports}{Running,
+Tai'Chi}
+\cvcomputer{GTD}{Getting things done}{Reading}{Classics, novels, tech (news)}
+\cvcomputer{Zen}{Daily meditation}{Kaizen}{Continuous improvement}
+
+\section{Languages}
+\cventry{Ruby on Rails}{Good}{professional use since 2011}{}{}{}
+\cventry{Python}{Good}{daily professional and personal use for two years}{}{}{}
+\cventry{C}{Good}{started programming with it 12 years ago}{}{}{}
+\cventry{HTML5/CSS}{Good}{regularly as needed}{}{}{}
+\cventry{JS/jQuery}{Good}{regularly as needed}{}{}{}
+\cventry{Shell}{Good}{daily use of Unices, writing scripts as needed}{}{}{}
+\cventry{\LaTeX}{Good}{used when appropirate}{}{}{}
+\cventry{Clojure}{Beginner}{LISP of choice, learning it for private
+projects.}{}{}{}
+\cventry{C\#}{Needs refreshing}{when .NET is needed}{}{}{}
+\cventry{Java}{Needs refreshing}{all courses in HfT. Also while working for
+Sun}{}{}{}\\
+\cventry{German}{Native tongue}{}{}{}{}
+\cventry{English}{Fluent}{needed on a daily basis in different media}{}{}{}
+\cventry{French}{Basic knowledge}{five years in school}{}{}{}
+
+\section{Bachelor thesis}
+\cvline{title}{\emph{Lieferscheine für Gerichtsurkunden}}
+\cvline{ISBN}{\small 978-3639282436}
+\cvline{Grade}{\small 1.0}
+
+\section{Education}
+% \cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+\cventry{1993--2002}{Abitur}{Klettgau
+Gymnasium}{Tiengen}{}{Advanced Studies: German, English}{}  % arguments 3 to 6 can be left empty
+\cventry{2002--2003}{Geriatric care}{Kreisalten- und
+ Pflegeheim}{Jestetten}{}{Alternative service}
+\cventry{2003--2006}{University}{Stuttgart}{}{}{Computer Science (Dipl. Inf.),
+1 semester Linguistics, 1 semester Technical Biology}
+\cventry{2006--today}{University of Applied Sciences (HfT)}{Stuttgart}{}{}{Computer
+Science (B.Sc.)}
+
+% Endfootnote - This section is needed to included \footnote(s)
+%\clearpage
+%\begingroup
+%\parindent 0pt
+%\parskip 2ex
+%\def\enotesize{\normalsize}
+%\theendnotes
+%\endgroup
+
+%"Knowing is not enough, we must apply.\\Willing is not enough, we must"\\(Goethe)
+\end{document}
+%\cvline{hobby 2}{\small Description}
+%\cvline{hobby 3}{\small Description}
+%
+%\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem[+]{Item 3}            % optional other symbol
+%
+%\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+%
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5 \cite{book1}}
+%\cvlistdoubleitem{Item 3}{}
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
+
+
+
+%% end of file `template_en.tex'.
+
+
