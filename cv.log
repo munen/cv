@@ -1,18 +1,11 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.2.6)  3 JAN 2012 19:55
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.1.30)  17 APR 2013 18:07
 entering extended mode
- restricted \write18 enabled.
  %&-line parsing enabled.
 **cv.tex
 (./cv.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, croatian, bulgarian, ukrainian, russian, czech, slovak, danish, dut
-ch, finnish, french, basque, ngerman, german, german-x-2009-06-19, ngerman-x-20
-09-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, italian, latin, mo
-ngolian2a, mongolian, bokmal, nynorsk, romanian, irish, coptic, serbian, turkis
-h, welsh, esperanto, uppersorbian, estonian, indonesian, interlingua, icelandic
-, kurmanji, slovenian, polish, portuguese, spanish, galician, catalan, swedish,
- loaded.
+yphenation, loaded.
 (./moderncv.cls
 Document Class: moderncv 2010/08/03 v0.12 modern curriculum vitae document clas
 s
@@ -414,7 +407,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )
-(/etc/texmf/tex/latex/config/hyperref.cfg
+(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 (/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
@@ -618,7 +611,7 @@ Package hyperref Warning: Option `pdfstartpage' has already been used,
 (hyperref)                setting the option has no effect on input line 55.
 
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 55.
-<picture.png, id=33, 124.96687pt x 124.96687pt>
+<picture.png, id=29, 124.96687pt x 124.96687pt>
 File: picture.png Graphic file (type png)
  <use picture.png>
 Overfull \hbox (6.79999pt too wide) in paragraph at lines 56--56
@@ -658,87 +651,92 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 58.
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 106.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 107.
 (/usr/share/texmf-texlive/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 106.
+(Font)              <9> on input line 107.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 106.
+(Font)              <6> on input line 107.
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+lmss on input line 135
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 136
 .
-LaTeX Font Info:    No file OMSlmss.fd. on input line 135.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 136.
 
 LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textperiodcentered' on input line 135.
+(Font)              for symbol `textperiodcentered' on input line 136.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./picture.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--178
+Underfull \hbox (badness 10000) in paragraph at lines 165--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--178
+Underfull \hbox (badness 10000) in paragraph at lines 165--180
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 182--185
+Underfull \hbox (badness 1577) in paragraph at lines 183--183
+[]\T1/lmss/m/n/9 Free Soft-ware Foun-da-tion mem-ber,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--187
 
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 187.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 189.
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--190
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--201
+Underfull \hbox (badness 10000) in paragraph at lines 189--192
 
  []
 
@@ -748,12 +746,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 5853 strings out of 493911
- 81376 string characters out of 1155273
- 170440 words of memory out of 3000000
- 8964 multiletter control sequences out of 15000+50000
+ 5852 strings out of 495061
+ 81399 string characters out of 1182621
+ 168988 words of memory out of 3000000
+ 8880 multiletter control sequences out of 15000+50000
  61827 words of font info for 50 fonts, out of 3000000 for 9000
- 706 hyphenation exceptions out of 8191
+ 28 hyphenation exceptions out of 8191
  40i,12n,45p,764b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-texlive/font
 s/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
@@ -765,9 +763,9 @@ s/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb>
 /public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></u
 sr/share/texmf-texlive/fonts/type1/public/marvosym/marvosym.pfb></usr/share/tex
 mf-texlive/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on cv.pdf (3 pages, 288877 bytes).
+Output written on cv.pdf (3 pages, 283736 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
+ 54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
